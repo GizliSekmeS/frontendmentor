@@ -1,0 +1,107 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+body{
+    
+    background-color: hsl(233, 47%, 7%);
+    color: #fff;
+    .section{
+        border-radius: 10px;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(244, 38%, 16%);
+    
+        .container{
+            .img{
+            border-radius: 4px;
+    
+                background-image: url('../images/image-header-mobile.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 350px;
+                width: 100%;
+    
+                .color{
+                    height: 100%;
+                    background-color: hsla(277, 41%, 42%, 0.6);
+                }
+            }
+            .content-box{
+                padding: 35px 35px 0 35px;
+                line-height: 1.5;
+                h2{
+                    font-size: 2rem;
+                    span{
+                        color: hsl(277, 64%, 61%);
+                    }
+                }
+                p{
+                    margin: 20px 0;
+                    color: hsla(0, 0%, 100%, 0.75) ;
+                }
+                div{
+                    text-align: center;
+                    ul{
+                        margin: 20px 0;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+
+
+@media(min-width: 768px){
+
+    html,
+    body {
+      height: calc(100% - 20px);
+    }
+
+    body{
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .container{        
+            display: flex;
+            flex-direction: row-reverse;
+            .img{
+                flex: 100%;
+                background-image: url('../images/image-header-desktop.jpg');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 650px;
+
+            }
+            .content-box{
+                box-sizing: border-box;
+                div{
+                    display: flex;
+                    ul{
+                        display: block;
+                        li{
+                            margin: 10px 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
