@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px 20px;
+        background-color: hsl(216, 50%, 16%);
+        .card-img{
+            border-radius: 10px;
+            width: 400px;
+            height:400px;
+        }
+        .card-img:hover{
+            cursor: pointer;
+        }
+        .card-body{
+            text-align: start;
+            .card-title{
+                cursor: pointer;
+                font-size: 20px;
+                color:hsl(0, 0%, 100%);
+            }
+            .card-title:hover{color: hsl(178, 100%, 50%);}
+            .card-text{
+                text-align: center;
+                line-height: 1.6;
+                text-align: center;
+                color: hsl(215, 32%, 26);
+            }
+            .about{
+                padding: 10px 0;
+                display: flex;
+                justify-content: space-between;
+                .eth{
+                    color: hsl(178, 100%, 50%);
+                }
+                .day{
+                    color: hsl(215, 32%, 26);
+                }
+            }
+            .card-footer{
+                margin: 30px 0 10px 0;
+                display: flex;
+                color: hsl(215, 32%, 26);
+                .footer-text{
+                    font-size: 16px;
+                    padding: 9px 0 0 0 ;
+                }
+                .footer-name:hover{
+                color: hsl(178, 100%, 50%);
+
+                }
+                .footer-name{
+                cursor: pointer;
+
+                    color:hsl(0, 0%, 100%);
+                }
+                .footer-img{
+                    margin: 0 5px 0 0;
+                    border-radius: 100px;
+                    border: 1px solid #fff;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            .border-bottom{
+                border-bottom: 1px solid hsl(215, 32%, 26);
+            }
+        }
+    }
+}
