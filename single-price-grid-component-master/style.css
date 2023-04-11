@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    background-color: gray;
+    height: 500px;
+    font-family: 'Karla', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.head-h2{
+    color: hsl(179, 62%, 43%);
+}
+.head-h3{
+    color: hsl(71, 73%, 54%);
+}
+.head-p{
+    color: hsl(218, 22%, 67%);
+}
+.bolumler{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+    color: #fff;
+}
+.btn{
+    justify-content: center;
+    border-radius:5px ;
+    display: flex;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+}
+span{
+    color: #fff;
+    font-size: 30px;
+}
+.col-1{
+    border-bottom-left-radius: 10px; 
+    flex: 50%;
+    padding: 30px;
+    background-color: hsl(179, 62%, 43%);
+
+}
+.col-2{
+    border-bottom-right-radius: 10px; 
+
+    flex: 50%;
+    padding: 30px;
+    max-width: 300px;
+    background-color: hsl(170, 62%, 43%);
+}
+.col-1-p{
+    color: hsl(218, 22%, 67%);
+
+}
+.card{
+    padding: 30px 0px 5px 20px;
+}
